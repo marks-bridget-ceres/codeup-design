@@ -46,6 +46,21 @@ hr {
     /*color: #C1C1C1;*/
     opacity: .2;
 }
+
+/* EXTRA SMALL SCREEN*/
+@media screen and (max-width:500px) {
+
+
+}
+
+
+
+
+
+
+
+
+
 /**********SMALL MEDIA******/
 @media screen and (min-width:768px) {
     body {
