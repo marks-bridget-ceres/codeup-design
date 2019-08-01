@@ -17,8 +17,9 @@ body {
 }
 h1 {
     font-family: 'Anton', sans-serif;
-    font-size: 48px;
+    /*font-size: 48px;*/
     margin-bottom: .5em;
+    font-size: 5.1vh;
 }
 h2 {
     font-family: 'Anton', sans-serif;
