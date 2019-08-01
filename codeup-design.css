@@ -72,7 +72,7 @@ hr {
 .blue {
     background: #00aba9;
 }
-i{
+i {
     color:blue;
 }
 
@@ -415,7 +415,9 @@ section {
     .feature3 { grid-area: 5 / 1 / 6 / 2; }
     .feature4 { grid-area: 5 / 2 / 6 / 3; }
     .sidebar{ grid-area: 2 / 3 / 4 / 4; }
-    .bird { grid-area: 4 / 3 / 5 / 4; }
+    .bird { grid-area: 4 / 3 / 5 / 4;
+    display: flex;
+    flex-direction: column;}
 
 .sidebar li img {
     width: 50px;
