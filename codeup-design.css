@@ -40,7 +40,7 @@ li {
     height: 105px;
 }
 hr {
-    width: 60%;
+    width: 50%;
     margin: 1em 0 1em 0;
     /*color: #C1C1C1;*/
     opacity: .2;
@@ -73,12 +73,14 @@ header {
 .circle {
     display: inline-block;
     border-radius: 50%;
-    /*padding-bottom: 100%;*/
+    padding-top: 2em;
     width: 105px;
     height: 105px;
     border: .5em solid white;
     text-align: center;
+    vertical-align: middle;
     color: white;
+    font-family: 'Anton', sans-serif;
 }
 .red {
     background: #e6563b;
