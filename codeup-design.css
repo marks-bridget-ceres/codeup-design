@@ -73,7 +73,7 @@ hr {
     background: #00aba9;
 }
 i {
-    color:blue;
+    color: #1da1f2;
 }
 
 img {
@@ -527,6 +527,11 @@ section {
         flex-direction: column;
         /*justify-content: space-between;*/
     }
+    span{
+        margin-bottom: .5em;
+
+
+    }
 }
 /************************LARGE AND EXTRA LARGE*************************************/
 @media screen and (min-width:960px) {
@@ -605,6 +610,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        /*text-align: justify;*/
     }
 
     .sidebar li img {
