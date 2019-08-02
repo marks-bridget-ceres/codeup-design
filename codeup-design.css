@@ -503,7 +503,9 @@ section {
     .sidebar{ grid-area: 2 / 3 / 4 / 4; }
     .bird { grid-area: 4 / 3 / 5 / 4;
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+    justify-content: center;
+    }
 
     .sidebar li img {
         width: 60px;
